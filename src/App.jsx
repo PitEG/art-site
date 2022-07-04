@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useParams } from 'react-router-dom';
 
 import './App.scss';
 
@@ -13,10 +13,11 @@ function Home() {
 }
 
 function Gallery() {
+  let params = useParams();
   return (
     <div>
-      <h1> Gallery </h1>
-      <Link to="/"> Back Home </Link>
+      <h1> Gallery: {params.galleryId} </h1>
+      <Link to="/"> Home </Link>
     </div>
   );
 }
@@ -24,11 +25,14 @@ function Gallery() {
 export function App() {
   return (
     <div className="app">
-      <h1> APP </h1>
+      <h1> APP HEADER </h1>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/" element={<Home/>}>
+        </Route>
+        <Route path="/:galleryId" element={<Gallery/>}>
+        </Route>
       </Routes>
+      <h1> APP FOOTER </h1>
     </div>
   )
 }
