@@ -1,39 +1,40 @@
 import React from 'react';
-import { Routes, Route, Link, useParams } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 import './App.scss';
 
-function Home() {
+import Gallery from './Gallery.jsx';
+import Home from './Home.jsx';
+
+function Header() {
   return (
-    <div>
-      <h1> HOME </h1>
-      <Link to="/gallery"> Gallery </Link>
-    </div>
+    <header>
+      <h1> HEADER</h1>
+      </header>
   );
 }
 
-function Gallery() {
-  let params = useParams();
+function Footer() {
   return (
-    <div>
-      <h1> Gallery: {params.galleryId} </h1>
-      <Link to="/"> Home </Link>
-    </div>
+    <footer>
+      <h1> FOOTER </h1>
+    </footer>
   );
 }
 
 export function App() {
   return (
-    <div className="app">
-      <h1> APP HEADER </h1>
+    <Container className="app" fluid>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}>
         </Route>
         <Route path="/:galleryId" element={<Gallery/>}>
         </Route>
       </Routes>
-      <h1> APP FOOTER </h1>
-    </div>
+      <Footer/>
+    </Container>
   )
 }
 
