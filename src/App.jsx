@@ -5,12 +5,14 @@ import Container from 'react-bootstrap/Container';
 import './App.scss';
 
 import Gallery from './Gallery.jsx';
+import GalleryImage from './GalleryImage.jsx';
 import Home from './Home.jsx';
+import Menu from './Menu.jsx';
 
 function Header() {
   return (
     <header>
-      <h1> HEADER</h1>
+      <Menu/> 
       </header>
   );
 }
@@ -28,11 +30,12 @@ export function App() {
     <Container className="app" fluid>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home/>}>
-        </Route>
-        <Route path="/:galleryId" element={<Gallery/>}>
-        </Route>
-      </Routes>
+        <Route path="/">
+          <Route index element={<Home/>}/>
+          <Route path="/:galleryId" element={<Gallery/>}/>
+          <Route path="/:galleryId/:imageId" element={<GalleryImage/>}/>
+          </Route>
+        </Routes>
       <Footer/>
     </Container>
   )
