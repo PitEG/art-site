@@ -11,7 +11,8 @@ export function Menu() {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse>
         <Nav className="me-auto">
-          <Nav.Link href="./gallery"> gallery </Nav.Link>
+          <Nav.Link href="./catplaceholder"> catplaceholder </Nav.Link>
+          <Nav.Link href="./gallery1"> gallery1 </Nav.Link>
           <Nav.Link href="./gallery2"> gallery2 </Nav.Link>
           </Nav>
         </Navbar.Collapse>

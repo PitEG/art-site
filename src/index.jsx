@@ -8,9 +8,10 @@ import App from './App.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // add strict mode back before putting in production 
+  // <React.StrictMode>
   <BrowserRouter>
     <App/>
   </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
