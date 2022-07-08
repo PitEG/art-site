@@ -1,21 +1,27 @@
 {
-  "catplaceholder": [
-    { "name": "cat1", "src" : "https://placekitten.com/200/300" },
-    { "name": "cat2", "src" : "https://placekitten.com/300/300" },
-    { "name": "cat3", "src" : "https://placekitten.com/300/300" },
-    { "name": "cat4", "src" : "https://placekitten.com/400/300" },
-    { "name": "cat5", "src" : "https://placekitten.com/430/300" },
-    { "name": "cat6", "src" : "https://placekitten.com/400/400" },
-    { "name": "cat7", "src" : "https://placekitten.com/400/300" },
-    { "name": "cat8", "src" : "https://placekitten.com/250/220" },
-    { "name": "cat9", "src" : "https://placekitten.com/250/200" },
-    { "name": "cat10", "src" : "https://placekitten.com/250/220" },
-    { "name": "cat11", "src" : "https://placekitten.com/250/300" },
-    { "name": "cat12", "src" : "https://placekitten.com/250/300" },
-    { "name": "cat13", "src" : "https://placekitten.com/250/300" },
-    { "name": "cat14", "src" : "https://placekitten.com/400/300" },
-    { "name": "cat15", "src" : "https://placekitten.com/450/300" },
-    { "name": "cat16", "src" : "https://placekitten.com/400/300" }
-  ]
+  "catplaceholder": {
+    "cat1": "https://placekitten.com/200/300",
+    "cat2": "https://placekitten.com/300/300",
+    "cat3": "https://placekitten.com/300/300",
+    "cat4": "https://placekitten.com/400/300",
+    "cat5": "https://placekitten.com/430/300",
+    "cat6": "https://placekitten.com/400/400",
+    "cat7": "https://placekitten.com/400/300",
+    "cat8": "https://placekitten.com/250/220",
+    "cat9": "https://placekitten.com/250/200",
+    "cat10": "https://placekitten.com/250/220",
+    "cat11": "https://placekitten.com/250/300",
+    "cat12": "https://placekitten.com/250/300",
+    "cat13": "https://placekitten.com/250/300",
+    "cat14": "https://placekitten.com/400/300",
+    "cat15": "https://placekitten.com/450/300",
+    "cat16": "https://placekitten.com/400/300"
+  },
+  "thing": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4
+  }
 }
 

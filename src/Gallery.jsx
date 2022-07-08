@@ -9,8 +9,8 @@ function GetGallery(galleryId) {
   const data = testJson[galleryId];
   let result = undefined;
   if (data) {
-    result = data.map((image)=>
-      <p key={image.name}><Image fluid src={image.src} alt={image.name}/></p>
+    result = Object.entries(data).map((image)=>
+      <p key={image[0]}><Image fluid src={image[1]} alt={image[0]}/></p>
     ); 
   } 
   return result;
