@@ -2,6 +2,8 @@
 
 Very basic version of my art site, an example can be seen here: [https://piteg.github.io/art-site/](https://piteg.github.io/art-site/).
 
+actually nvm, github doesn't know how to handle react router's funny business.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
