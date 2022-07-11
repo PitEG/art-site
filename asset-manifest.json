@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/art-site/static/css/main.fdae961a.css",
+    "main.js": "/art-site/static/js/main.d5d37620.js",
+    "index.html": "/art-site/index.html",
+    "main.fdae961a.css.map": "/art-site/static/css/main.fdae961a.css.map",
+    "main.d5d37620.js.map": "/art-site/static/js/main.d5d37620.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdae961a.css",
+    "static/js/main.d5d37620.js"
+  ]
+}
