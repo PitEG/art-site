@@ -1,3 +1,7 @@
+# Exampe Site
+
+Very basic version of my art site, an example can be seen here: [https://piteg.github.io/art-site/](https://piteg.github.io/art-site/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
